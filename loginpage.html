@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		body{
+			background-color: black;
+			min-width: 1080px;
+		}
+		.topdiv
+			{
+				width: 100%;
+				height: 0.5cm;
+				background-color: white;
+			}
+
+
+		.div1
+		{
+			width: 60%;
+			background-color: #1a1a1a;
+			height: 730px;
+			float: left;
+			margin-top: none;
+			margin-left: 0;
+		}
+		.div2
+		{
+			width: 40%;
+			background-color: #00e673;
+			height: 730px;
+			float: right;
+			margin-top: none;
+			margin-left: 0;
+		}
+		img
+			{
+			 width: 220px;
+			 height: auto;
+			 margin-left: 3cm;
+			 margin-top: 2cm; 
+			}
+		.cont
+			{
+				margin-left:3cm;
+				font-family: century gothic;
+				margin-top: 2.5cm;
+				margin-right: 20%;
+			}
+		.button
+			{
+				font-family: futura md bt;
+				background-color: #33ffad;
+				color: white;
+				width: 5cm;
+				height: 1cm;
+				font-weight: 300%;
+				border: none;
+				border-radius: 0.1cm;
+			}
+		.last
+			{	
+				margin-left:3cm;
+				margin-top: 3cm;
+				margin-bottom: 0.6cm;
+				font-family: century gothic;
+			}
+		select
+			{
+				font-family: century gothic;
+				color: white;
+				background-color:#1a1a1a;
+				border: 0px;
+				font: bold;
+			}
+		input
+			{	
+				font-family: century gothic;
+				color: white;
+				background-color:#1a1a1a;
+				border: 0px;
+				font: bold;
+			}
+		.inp
+			{
+				border-bottom: 2px solid white;
+				background-color: transparent;
+				width: 9cm;
+				
+			}
+		::placeholder
+			{
+			color: white;
+			}
+		.button1
+				{
+					width: 3cm;
+					height: 1cm;
+					background-color: white;
+					color: #33ffad;
+					font-family: futura md bt;
+					border: none;
+				}
+		.butn2	
+				{
+				font-family: futura md bt;	
+				background-color: #00e673;
+				border: none;
+				color: white;
+				}
+	
+	</style>
+	<title>Login page</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width initial-scale=1.08">
+</head>
+<body>
+	<div class="topdiv"></div>
+	<div class="div1">
+	<img src="https://cosy.erc.edu/assets/my-erc/img/logo-white.png">
+	
+	<div class="cont">
+	<h1 style="color: white; font-size: 32px;">Welcome</h1>
+	<h2 style="color: #808080; font-size: 24px">Register for an ERC account here.</h2>
+	<p style="color: #808080; font-size: 14px;"><b>Register for a free ERC account here and get access to the webshop, academy and MyCRC membership portal. Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui.</b></p>
+	<input type="button" name="Register" class="button" value="Register Here">
+	</div>
+	<div class="last">
+		
+		<select name="language" id="language">
+  		<option value="language1">CHOOSE LANGUAGE</option>
+  		<option value="language2">Language1</option>
+  		</select>
+  <input type="button" name="HELP CENTER" value="HELP CENTER">
+  <input type="button" name="ERC WEBSITE" value="ERC WEBSITE">
+  <input type="button" name="ERC WEBSHOP" value="ERC WEBSHOP">
+</div>
+	</div>
+
+	<div class="div2">
+		<div class="cont">
+		<h2 style="color: white; font-size: 24px; margin-top: 8cm">Or login to you account</h2>
+		<br>
+		<input type="email" name="email" placeholder="Your email" class="inp">
+		<br>
+		<br>
+		<br>
+		<input type="Password" name="password" placeholder="Password" class="inp">
+		<br>
+		<br>
+		<button class="button1">LOGIN</button>
+		<button class="butn2">Forgot password?</button>
+	</div>
+	</div>
+</body>
+</html>
